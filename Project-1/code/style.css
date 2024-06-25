@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#f2f8eb;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Head */
+header{
+    text-align: center;
+}
+
+.h_title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #48a300;
+}
+
+/* overriding the color to Today */
+.h_title > span{
+    color: #61481c;
+}
+
+
+/* Main */
+main{
+    background-color: #f1eded;
+    width: min(70%, 500px);
+    margin: 2rem auto;
+    padding: 2rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(197, 197, 197);
+}
+
+.m_heading{
+    font-weight: 800;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.m_heading > span >img{
+    width: 2rem;
+}
+
+.m_pb_h{
+    color: #858585;
+    font-size:0.7rem;
+    padding-bottom: 1rem;
+}
+
+.m_pb_b{
+    max-width: 100%;
+    height: 1.5rem;
+    background-color:#f2f8eb;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+}
+
+.m_pb_inside{
+    max-width: 80%;
+    height: 1.5rem;
+    background-color:#48a300;
+    border-radius: 30px;
+}
+
+.m_pb_f{
+    font-size:0.7rem;
+    color: #FF5151;
+    padding-bottom: 1rem;
+    /* visibility: hidden; */
+}
+
+.m_box{
+    max-width: 100%;
+    background-color:white;
+    padding: 1rem 1rem;
+    margin: 1rem 0rem;
+    border-radius: 12px;
+    display: flex;
+    gap: 1rem;
+    box-shadow: 0px 0px 10px rgb(197, 197, 197);
+}
+
+.circle{
+    width: 1rem;
+    height: 1rem;
+    border: 0.1px solid #858585;
+    border-radius: 100%;
+}
+
+.circle > img{
+    position: absolute;
+}
+
+input{
+    border: none;
+    width: 100%;
+}
+
+.box_input{
+    font-size: large;
+    font-weight: 700;
+}
+
+.box_input.c-checked{
+    color: #48a300;
+    text-decoration: line-through;
+}
+
+.m_foot{
+    text-align: center;
+    padding: 2rem 0px; 
+    font-size: 0.7rem;
+}
+
+.m_foot > div{
+    color: #858585;
+}
+
+.m_foot div:first-of-type{
+    padding-bottom: 3rem;
+    color: black;
+    font-weight: 700;
+    font-size: larger;
+}   

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,54 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
-    
+
+    <header>
+        <div class="h_title">Focus on <span>Today</span></div>
+    </header>
+
+    <main>
+        
+        <div class="m_heading">
+            <div class="mh_title">Today</div>
+            <span><img src="Sun.svg" alt="sun"></span>
+        </div>
+
+        <section class="m_progress_bar">
+            <div class="m_pb_h">Raise the bar by completing your goals!</div>
+            <div class="m_pb_b">
+                <div class="m_pb_inside"></div>
+            </div>
+            <div class="m_pb_f">Please set all the 3 goals!</div>
+        </section>
+
+        <section class="m_boxes">
+            <div class="m_box c-checked">
+                <div class="circle">
+                    <img src="check.svg" alt="check" class="checked">
+                </div>
+                <input type="text" class="box_input checked" placeholder="Add new goal...">
+            </div>
+            <div class="m_box">
+                <div class="circle">
+                </div>
+                <input type="text" class="box_input" placeholder="Add new goal...">
+            </div>
+            <div class="m_box">
+                <div class="circle">
+                </div>
+                <input type="text" class="box_input" placeholder="Add new goal...">
+            </div>
+        </section>
+
+        <div class="m_foot">
+            <div>“Move one step ahead, today!”</div>
+            <div>Made with ❤️by Tushar Hasule</div>
+        </div>
+
+    </main>
+
 </body>
+
 </html>

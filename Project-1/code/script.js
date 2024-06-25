@@ -1,0 +1,1 @@
+let checkList = document.querySelectorAll(".circle");
